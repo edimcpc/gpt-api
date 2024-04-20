@@ -18,7 +18,7 @@ app.get('/gpt/:prompt', async (req, res) => {
 
 // Fungsi untuk menghasilkan teks dari OpenAI
 async function generateText(prompt, temperature) {
-  const openaiApiKey = 'YOUR_OPENAI_API_KEY';
+  const openaiApiKey = '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';
   const url = 'https://api.openai.com/v1/completions';
   const data = {
     model: 'text-davinci-003',
